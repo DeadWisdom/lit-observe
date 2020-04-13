@@ -1,4 +1,8 @@
 export class Observable {
+  constructor(properties) {
+    Object.assign(this, properties);
+  }
+
   subscribe(fn) {
     if (!this.__subscriptions) {
       Object.defineProperty(this, "__subscriptions", {
