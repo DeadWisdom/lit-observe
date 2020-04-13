@@ -1,0 +1,31 @@
+{
+  "name": "lit-observe",
+  "version": "1.0.0",
+  "description": "Super simple observable / reactive library for lit-element to manage state.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "test:update-snapshots": "karma start --update-snapshots",
+    "test:prune-snapshots": "karma start --prune-snapshots"
+  },
+  "keywords": [
+    "lit-element",
+    "reactive",
+    "observable",
+    "state",
+    "hooks"
+  ],
+  "author": "Brantley Harris <brantley.harris@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.10",
+    "@open-wc/testing-karma": "^3.3.11",
+    "chai": "^4.2.0",
+    "deepmerge": "^4.2.2",
+    "karma": "^4.4.1",
+    "lit-element": "^2.3.1",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.2"
+  }
+}
