@@ -1,6 +1,6 @@
 {
   "name": "lit-observe",
-  "version": "1.0.0",
+  "version": "1.0.0a",
   "description": "Super simple observable / reactive library for lit-element to manage state.",
   "main": "src/index.js",
   "scripts": {
