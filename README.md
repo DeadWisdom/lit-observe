@@ -12,9 +12,9 @@ Now custom elements can manage their internal state with normal properties, but 
 
 ## Install
 
-Install directly from github. If you want to install from a npm package, create an issue in this repo.
+Install from npm:
 
-    > npm install --save deadwisdom/lit-observe
+    > npm install --save lit-observe
 
 ## Easy to use
 
