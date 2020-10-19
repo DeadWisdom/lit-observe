@@ -1,4 +1,3 @@
-
 export function observer(cls) {
   return class extends cls {
     update(props) {
@@ -9,9 +8,9 @@ export function observer(cls) {
     }
 
     observeUpdate(subject, name) {
-      this._requestUpdate();
+      this.requestUpdateInternal();
     }
-     
+
     constructor() {
       super();
 
@@ -49,7 +48,7 @@ class SubscriptionManager {
       const fn = () => {
         this.element.observeUpdate(sub);
       };
-      this.addSubscription(sub.subscribe(fn))
+      this.addSubscription(sub.subscribe(fn));
     });
   }
 
