@@ -1,6 +1,6 @@
 {
   "name": "lit-observe",
-  "version": "1.0.1",
+  "version": "1.0.1a",
   "description": "Super simple observable / reactive library for lit-element to manage state.",
   "main": "src/index.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "state",
     "hooks"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeadWisdom/lit-observe.git"
+  },
   "author": "Brantley Harris <brantley.harris@gmail.com>",
   "license": "MIT",
   "devDependencies": {
